@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Curs 19 - Capitolul 1">
+    <test name="Curs 19 - Capitolul 1">
+        <classes>
+            <class name="ro.qatester.api.tests.JavaStandardVsRestAssuredTest"/>
+            <class name="ro.qatester.api.tests.SystemHealthTest"/>
+        </classes>
+    </test>
+</suite>

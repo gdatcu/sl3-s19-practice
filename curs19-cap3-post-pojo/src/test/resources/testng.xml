@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Curs 19 - Capitolul 3">
+    <test name="Curs 19 - Capitolul 3">
+        <classes>
+            <class name="ro.qatester.api.tests.StringJsonBodyTest"/>
+            <class name="ro.qatester.api.tests.HapifyMeLoginTest"/>
+            <class name="ro.qatester.api.tests.HapifyMeRegisterTest"/>
+            <class name="ro.qatester.api.tests.Chapter3ExercisesTest"/>
+        </classes>
+    </test>
+</suite>

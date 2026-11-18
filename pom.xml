@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Proiect "agregator": deschide-l în IntelliJ ca să ai toate cele 5 capitole într-o singură fereastră.
+         Fiecare capitol este și un proiect Maven independent (poate fi deschis separat). -->
+    <groupId>ro.qatester</groupId>
+    <artifactId>curs19-capitolele-1-5</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>Curs 19 - REST Assured - Capitolele 1-5</name>
+
+    <modules>
+        <module>curs19-cap1-introducere-gwt</module>
+        <module>curs19-cap2-parametri-extragere</module>
+        <module>curs19-cap3-post-pojo</module>
+        <module>curs19-cap4-crud-chaining</module>
+        <module>curs19-cap5-bdd-datadriven</module>
+    </modules>
+</project>
